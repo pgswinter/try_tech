@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="button">submit</button>
+    <script>
+        const pBody = document.getElementsByTagName('body');
+        
+        // There is a callback
+        document.getElementById('button').addEventListener('click', () => {
+            console.log('hey! I known any button was clicked!!');
+        })
+        window.addEventListener('load', () => {
+            //window loaded
+            console.log('hey! I known window loaded!!');
+        })
+    </script>
+</body>
+
+</html>

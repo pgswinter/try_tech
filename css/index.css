@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex-content {
+    display: flex;
+}
+.flex-content div {
+    width: 300px;
+    padding: 25px;
+    /* min-width: 80px; */
+    /* height: 300px; */
+    /* min-height: 80px; */
+    color: #fff;
+    text-align: center;
+    line-height: 5;
+    margin: 10px 10px 0;
+}
+.flex-content div:nth-child(1) {
+    background-color: red;
+    /* flex-grow: 1; */
+    flex-shrink: 3;
+}
+.flex-content div:nth-child(2) {
+    background-color: green;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+.flex-content div:nth-child(3) {
+    background-color: blue;
+    /* flex-grow: 3; */
+    flex-shrink: 1;
+}

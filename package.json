@@ -1,0 +1,20 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node prototype.js",
+    "server": "nodemon --exec babel-node ./server/app.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0",
+    "zlib": "^1.0.5"
+  }
+}
